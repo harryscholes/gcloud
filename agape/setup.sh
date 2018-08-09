@@ -1,7 +1,7 @@
 # Google ML VM Base Cuda 9.0
 
 # Setup .bash_profile
-rm -f ~/.bash_profile && ln -s .bash_profile ~/.bash_profile && source .bash_profile
+rm -f ~/.bash_profile && ln -s .bash_profile $HOME/.bash_profile && source .bash_profile
 
 # Install packages
 curl -O https://repo.anaconda.com/archive/Anaconda3-5.2.0-Linux-x86_64.sh \
