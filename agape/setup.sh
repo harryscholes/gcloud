@@ -8,7 +8,8 @@ curl -O https://repo.anaconda.com/archive/Anaconda3-5.2.0-Linux-x86_64.sh \
   && source ~/.bash_profile \
   && rm Anaconda3-5.2.0-Linux-x86_64.sh \
   && conda config --add channels conda-forge \
-  && conda install nb_conda_kernels --yes
+  && conda install nb_conda_kernels --yes \
+  && conda install -c damianavila82 rise --yes
 pip install --upgrade pip \
   && pip install tensorflow-gpu keras \
   && python cuda_test.py
