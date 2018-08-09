@@ -1,7 +1,7 @@
 # Guide
 
 ## Image
-Create a VM from `Google ML VM Base Cuda 9.0`
+Create a VM from `Google Deep Learning VM Base Cuda 9.0`
 
 ## Setup
 ```
